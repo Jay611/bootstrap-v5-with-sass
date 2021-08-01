@@ -30,7 +30,9 @@
 
 // FORM CONTENT
 .form {
-  padding: 3rem;
+  @include media-breakpoint-up(md) {
+    padding: 3rem;
+  }
 
   button {
     border: none;
